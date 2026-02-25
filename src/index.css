@@ -87,13 +87,15 @@ a {
 }
 
 .hero h1 {
-  font-size: 3.5rem;
-  letter-spacing: 4px;
+  font-size: clamp(1.8rem, 6vw, 3.5rem);
+  letter-spacing: 3px;
+  text-align: center;
 }
 
 .hero p {
   margin-top: 15px;
-  font-size: 1.2rem;
+  font-size: clamp(0.9rem, 3vw, 1.2rem);
+  text-align: center;
 }
 
 /* BUTTON */
@@ -270,5 +272,9 @@ a {
 
   .menu-toggle {
     display: block;
+  }
+
+  .logo {
+    font-size: 1.2rem;
   }
 }
