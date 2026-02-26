@@ -27,19 +27,19 @@ export const brownies = [
     name: "Kinder Brownie",
     weight: "250g",
     price: 420,
-    image: "/assets/products/brownie_classic.webp",
+    image: "/assets/products/brownie_kinder.webp",
   },
   {
     name: "Red Velvet",
     weight: "250g",
     price: 360,
-    image: "/assets/products/brownie_classic.webp",
+    image: "/assets/products/brownie_red_velvet.webp",
   },
   {
     name: "Nuts Brownie",
     weight: "250g",
     price: 390,
-    image: "/assets/products/brownie_classic.webp",
+    image: "/assets/products/brownie_nuts.webp",
   },
 ];
 
