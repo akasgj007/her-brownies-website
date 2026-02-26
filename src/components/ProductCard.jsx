@@ -9,16 +9,13 @@ const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mess
     <div className="product-card tilt-card">
       <h3>{name}</h3>
       <p>{weight}</p>
-      <span>₹{price}</span>
-      <a
-  href={whatsappURL}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="order-btn"
->
-  <img src={orderIcon} alt="Order" className="order-icon" />
-  Place Order
-</a>
+     <div className="card-bottom">
+  <span className="price">₹{price}</span>
+  <a href={whatsappURL} className="order-btn">
+    <img src={orderIcon} alt="Order" className="order-icon" />
+    Order
+  </a>
+</div>
     </div>
   );
 }
