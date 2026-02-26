@@ -177,6 +177,30 @@ a {
   font-weight: bold;
 }
 
+.order-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 8px 14px;
+  background: #5a2f22;
+  color: white;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.order-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.order-icon {
+  width: 20px;
+  height: 20px;
+}
+
 /* SECTION TITLE */
 
 .section-title {
