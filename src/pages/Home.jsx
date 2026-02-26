@@ -115,7 +115,7 @@ function Home() {
       </section>
 
       <section id="contact" className="contact-section">
-        <SectionTitle title="Contact Us" />
+        <SectionTitle title="Join Our Sweet World 🍫" />
 
         <div className="contact-options">
           <a
