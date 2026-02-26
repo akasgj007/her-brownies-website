@@ -247,9 +247,31 @@ a {
 
 .footer {
   text-align: center;
-  padding: 25px;
+  padding: 30px 20px;
   background: #3b1f16;
   color: #f2e2d2;
+  font-size: 0.9rem;
+}
+
+.footer .tagline {
+  margin: 8px 0;
+  opacity: 0.8;
+}
+
+.developer-credit {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.developer-link {
+  color: #a97142;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.developer-link:hover {
+  text-decoration: underline;
 }
 
 /* MOBILE */
