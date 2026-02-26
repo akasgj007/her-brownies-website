@@ -44,10 +44,40 @@ export const brownies = [
 ];
 
 export const blondies = [
-  { name: "Classic Blondie", weight: "250g", price: 320 },
-  { name: "Nutella Blondie", weight: "250g", price: 370 },
-  { name: "Double Chocolate Blondie", weight: "250g", price: 390 },
-  { name: "Triple Chocolate Blondie", weight: "250g", price: 420 },
-  { name: "Kinder Blondie", weight: "250g", price: 450 },
-  { name: "Nuts Blondie", weight: "250g", price: 400 },
+  {
+    name: "Classic Blondie",
+    weight: "250g",
+    price: 320,
+    image: "/assets/products/blondie_classic.webp",
+  },
+  {
+    name: "Nutella Blondie",
+    weight: "250g",
+    price: 370,
+    image: "/assets/products/blondie_nutella.webp",
+  },
+  {
+    name: "Double Chocolate Blondie",
+    weight: "250g",
+    price: 390,
+    image: "/assets/products/blondie_double_choco.webp",
+  },
+  {
+    name: "Triple Chocolate Blondie",
+    weight: "250g",
+    price: 420,
+    image: "/assets/products/blondie_triple_choco.webp",
+  },
+  {
+    name: "Kinder Blondie",
+    weight: "250g",
+    price: 450,
+    image: "/assets/products/blondie_kinder.webp",
+  },
+  {
+    name: "Nuts Blondie",
+    weight: "250g",
+    price: 400,
+    image: "/assets/products/blondie_nuts.webp",
+  },
 ];
