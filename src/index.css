@@ -219,23 +219,23 @@ a {
 
 .section-title {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .section-title h2 {
-  position: relative;
-  display: inline-block;
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-family: "Playfair Display", serif;
   color: #3b1f16;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
 }
 
-.section-title h2::after {
-  content: "";
-  display: block;
-  width: 50%;
+.underline {
+  width: 60px;
   height: 3px;
   background: #5a2f22;
-  margin: 8px auto 0;
-  border-radius: 2px;
+  margin: 0 auto;
+  border-radius: 3px;
 }
 
 /* CONTACT */
