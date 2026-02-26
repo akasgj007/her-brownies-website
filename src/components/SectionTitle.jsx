@@ -1,8 +1,8 @@
-function SectionTitle({ title }) {
+function SectionTitle({ title, subtitle }) {
   return (
     <div className="hb-section-title">
       <h2>{title}</h2>
-      <div className="underline"></div>
+      {subtitle && <p className="section-quote">“{subtitle}”</p>}
     </div>
   );
 }

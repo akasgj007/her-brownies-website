@@ -247,14 +247,26 @@ a {
   letter-spacing: 2px;
   margin-bottom: 12px;
 }
+.section-quote {
+  margin-top: 18px;
+  font-size: 1.2rem; /* Bigger than subtitle */
+  font-style: italic;
+  color: #5a2f22;
+  opacity: 0.9;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
 
-.underline {
+/* .underline {
   width: 60px;
+  margin-top: 30px;
   height: 3px;
   background: #5a2f22;
   margin: 0 auto;
   border-radius: 3px;
-}
+} */
 
 /* CONTACT */
 

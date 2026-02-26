@@ -73,7 +73,10 @@ function Home() {
       </section>
 
       <section id="brownies" className="menu-section">
-        <SectionTitle title="Brownies" />
+        <SectionTitle
+          title="Brownies"
+          subtitle="Rich, fudgy chocolate squares baked to pure happiness."
+        />
 
         <motion.div
           className="menu-grid"
@@ -91,7 +94,10 @@ function Home() {
       </section>
 
       <section id="blondies" className="menu-section light">
-        <SectionTitle title="Blondies" />
+        <SectionTitle
+          title="Blondies"
+          subtitle="The golden cousin of brownies — buttery, sweet, and chocolate-free."
+        />
 
         <motion.div
           className="menu-grid"
