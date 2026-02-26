@@ -35,7 +35,7 @@ function Home() {
   };
 
   const message = encodeURIComponent(
-    "Hi, I would like to order some brownies. Could you please share the details?",
+    "Hi, I would like to order some brownies & blondies. Could you please share the details?",
   );
 
   return (
