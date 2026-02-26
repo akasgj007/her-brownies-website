@@ -9,19 +9,19 @@ export const brownies = [
     name: "Nutella",
     weight: "250g",
     price: 350,
-    image: "/assets/products/brownie_classic.webp",
+    image: "/assets/products/brownie_nutella.webp",
   },
   {
     name: "Double Chocolate",
     weight: "250g",
     price: 380,
-    image: "/assets/products/brownie_classic.webp",
+    image: "/assets/products/brownie_double_choco.webp",
   },
   {
     name: "Triple Chocolate",
     weight: "250g",
     price: 400,
-    image: "/assets/products/brownie_classic.webp",
+    image: "/assets/products/brownie_triple_choco.webp",
   },
   {
     name: "Kinder Brownie",
