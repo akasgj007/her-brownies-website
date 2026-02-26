@@ -7,7 +7,10 @@ function ProductCard({ name, weight, price, image }) {
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   return (
     <div className="product-card tilt-card">
-      <img src={image} alt={name} className="product-img" />
+      <div className="image-wrapper">
+        <img src={image} alt={name} className="product-img" />
+      </div>
+
       <h3>{name}</h3>
       <p>{weight}</p>
       <div className="card-bottom">
