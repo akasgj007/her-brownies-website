@@ -217,12 +217,12 @@ a {
 
 /* SECTION TITLE */
 
-.section-title {
+.hb-section-title {
   text-align: center;
   margin-bottom: 60px;
 }
 
-.section-title h2 {
+.hb-section-title h2 {
   font-size: clamp(1.8rem, 4vw, 2.4rem);
   font-family: "Playfair Display", serif;
   color: #3b1f16;

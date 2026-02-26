@@ -1,6 +1,6 @@
 function SectionTitle({ title }) {
   return (
-    <div className="section-title">
+    <div className="hb-section-title">
       <h2>{title}</h2>
       <div className="underline"></div>
     </div>
