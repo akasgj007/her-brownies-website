@@ -96,7 +96,7 @@ function Home() {
       <section id="blondies" className="menu-section light">
         <SectionTitle
           title="Blondies"
-          subtitle="The golden cousin of brownies — buttery, sweet, and chocolate-free."
+          subtitle="A rich, sweet delight — the golden cousin of your favorite chocolate brownie."
         />
 
         <motion.div
@@ -115,7 +115,7 @@ function Home() {
       </section>
 
       <section id="contact" className="contact-section">
-        <SectionTitle title="Order Now" />
+        <SectionTitle title="Contact Us" />
 
         <div className="contact-options">
           <a
