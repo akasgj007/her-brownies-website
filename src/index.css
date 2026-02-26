@@ -142,7 +142,7 @@ a {
 }
 
 .menu-section.light {
-   background: linear-gradient(to bottom, #e8d4c3, #f2e2d2);
+  background: linear-gradient(to bottom, #e8d4c3, #f2e2d2);
   padding: 35px 10%;
 }
 
@@ -225,6 +225,7 @@ a {
 .section-title h2 {
   position: relative;
   display: inline-block;
+  color: #3b1f16;
 }
 
 .section-title h2::after {
