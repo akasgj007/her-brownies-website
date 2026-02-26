@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <header className="header">
-        <div className="logo">HER_BROWNIES</div>
+        <div className="logo">HER BROWNIES</div>
 
         <nav className={`nav ${menuOpen ? "active" : ""}`}>
           <a href="#hero">Home</a>
