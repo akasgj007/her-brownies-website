@@ -73,7 +73,7 @@ function Home() {
       </section>
 
       <section id="brownies" className="menu-section">
-        <SectionTitle
+        <SectioTitle
           title="Brownies"
           subtitle="Rich, fudgy chocolate squares baked to pure happiness."
         />
